@@ -1,3 +1,10 @@
+/**
+ * Internet Explorer 6 Must DIE! 1.1
+ *
+ * Copyright (c) 2009 Ioseb Dzmanashvili (http://www.code.ge)
+ * Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
+ */
+ 
 (function() {
   
   var ua   = navigator.userAgent.toLowerCase(),
@@ -63,9 +70,9 @@
     content.push('<div class="ie6mustdie-body">');
     content.push('<p>');
     content.push('ძვირფასო მომხმარებელო, თქვენ იყენებთ მსოფლიოში ყველაზე მოძველებულ ბრაუზერს მაშინ როდესაც არსებობს');
-    content.push('რამდენიმე შესანიშნავი ალტერნატივა');
-    content.push('(<strong>მათ შორის თქვენი მიმდინარე ბრაუზერის მწარმოებლისგან</strong>).'); 
-    content.push('ამ საიტის სანახავად გირჩევთ გადმოწეროთ ქვემოთ მითითებულ ბრაუზერთაგან ერთერთი.'); 
+    content.push(' რამდენიმე შესანიშნავი ალტერნატივა');
+    content.push('(<strong>მათ შორის თქვენი მიმდინარე ბრაუზერის მწარმოებლისგან</strong>). '); 
+    content.push('ამ საიტის სანახავად გირჩევთ გადმოწეროთ ქვემოთ მითითებულ ბრაუზერთაგან ერთერთი. '); 
     content.push('გისურვებთ წარმატებულ მუშაობას!');
     content.push('</p>');
     content.push('<h2>გადმოწერეთ ერთერთი ბრაუზერი</h2>');
